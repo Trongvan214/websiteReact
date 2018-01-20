@@ -1,0 +1,101 @@
+/*---------------Toggle Button-----------------*/
+.toggle-button{
+    position: fixed;
+    top: 5%;
+    left: 2.5%;
+    width: 55px;
+    height: 55px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    z-index: 100;
+    cursor: pointer;
+}
+.toggle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 25px;
+    height: 35px;
+    cursor: pointer;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.toggle span {
+    position: absolute;
+    display: block;
+    background: whitesmoke;
+    width:50%;
+    height: 3px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.toggle span:nth-child(even) {
+    left: 50%;
+}
+.toggle span:nth-child(1),
+.toggle span:nth-child(2){
+    top: 15%;
+}
+
+.toggle span:nth-child(3),
+.toggle span:nth-child(4) 
+{
+    top: 45%;
+}
+
+.toggle span:nth-child(5),
+.toggle span:nth-child(6) 
+{
+    top: 75%;
+}
+.active .toggle span:nth-child(3) {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0;
+
+}
+.active .toggle span:nth-child(4) {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 0;
+
+}
+.active .toggle span:nth-child(1) {
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+
+}
+.active .toggle span:nth-child(2) {
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+
+}
+.active .toggle span:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(55%, -65%);
+    transform: rotate(45deg) translate(55%, -65%);
+}
+.active .toggle span:nth-child(2) {
+    -webkit-transform: rotate(-45deg) translate(-55%, -65%);
+    transform: rotate(-45deg) translate(-55%, -65%);
+}
+
+.active .toggle span:nth-child(5) {
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+
+}
+.active .toggle span:nth-child(6) {
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+}
+
+.active .toggle span:nth-child(5) {
+    -webkit-transform: rotate(-45deg) translate(55%, 65%);
+    transform: rotate(-45deg) translate(55%, 65%);
+}
+.active .toggle span:nth-child(6) {
+    -webkit-transform: rotate(45deg) translate(-55%, 65%);
+    transform: rotate(45deg) translate(-55%, 65%);
+}

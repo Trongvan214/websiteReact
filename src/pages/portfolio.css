@@ -1,0 +1,44 @@
+/*----------------------------------------------
+Portfolio Page
+-----------------------------------------------*/
+#portfolio {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.show-case {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    margin: 0 auto;
+}
+.item {
+    float: left;
+    max-width: 45%;
+    margin: 0 2.5%;
+    overflow: hidden;
+
+}
+.item img {
+    max-width: 100%;
+}
+@media screen and (max-width: 1024px) and (min-height: 1000px) and (max-height: 1366px)  {
+    
+}
+@media screen and (max-width: 1024px) and (min-height: 575px) and (max-height: 700px) {
+
+}
+@media screen and (max-width:768px) and (min-height: 1024px) and (max-height: 1200px) {
+
+}
+@media screen and (max-width: 768px) and (min-height: 575px) and (max-height: 770px){
+
+}
+@media screen and (max-width: 425px) {
+
+}
+@media screen and (max-width: 320px) {
+
+}
