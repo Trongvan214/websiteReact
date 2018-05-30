@@ -1,0 +1,100 @@
+/*----------------------------------------------
+                    About Page
+-----------------------------------------------*/
+#about {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://static.pexels.com/photos/97076/pexels-photo-97076.jpeg) 0/ cover no-repeat;
+    z-index: -1;
+    overflow: hidden;
+}
+.about-info {
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 860px;
+    line-height: 100%;
+}
+.about-info h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.about-info p {
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    line-height: 70px;
+    text-indent: 7%;
+}
+@media screen and (max-width: 1024px) and (max-height: 1366px)  {
+    #about {
+        background: url(https://static.pexels.com/photos/97076/pexels-photo-97076.jpeg) 40% 0/ cover no-repeat;
+    }
+    .about-info {
+        max-width: 650px;
+    }
+    .about-info h1 {
+        font-size: 40px;
+    }
+    .about-info p {
+        font-size: 22px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width: 1024px) and (max-height: 700px) {
+    .about-info h1 {
+        font-size: 35px;
+    }
+    .about-info p {
+        line-height: 50px;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:768px) and (max-height: 1200px) {
+    .about-info h1 {
+    }
+    .about-info p {
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 575px) and (max-height: 770px){
+    .about-info {
+        max-width: 500px;
+    }
+    .about-info h1 {
+
+    }
+    .about-info p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 425px) {
+    #about {
+        background: url(https://static.pexels.com/photos/97076/pexels-photo-97076.jpeg) 60% 0/ cover no-repeat;
+    }
+    .about-info {
+        top: 54%;
+        width: 90%;
+        margin: 0 5%;
+        right: 0;
+    }
+    .about-info h1 {
+        font-size: 25px;
+    }  
+    .about-info p {
+        line-height: 45px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .about-info p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .about-info p {
+        font-height: 35px;
+    }
+}
