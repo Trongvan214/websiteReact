@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Image, Grid } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import './css/Portfolio.css';
 
 export default class Portfolio extends Component {
@@ -7,7 +7,7 @@ export default class Portfolio extends Component {
         return (
             <div id="portfolio" key="content">
                 <h1>Projects</h1>
-                <Grid className="show-case">
+                <div className="show-case">
                     <div className="item a1">
                         <a href="https://trongvan214.github.io/Weather-App/" rel="noopener noreferrer" target="_blank">
                             <Image src="/images/weatherapp.PNG"/>
@@ -38,10 +38,10 @@ export default class Portfolio extends Component {
                             <Image src="/images/quizlet.PNG"/>
                         </a>
                     </div>
-                </Grid>
+                </div>
                 <div className="github-link">
                     <a href="https://github.com/Trongvan214" rel="noopener noreferrer" target="_blank">
-                        <i class="fab fa-github"></i>https://github.com/Trongvan214
+                        <i className="fab fa-github"></i>https://github.com/Trongvan214
                     </a>
                 </div>
             </div>

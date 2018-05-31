@@ -64,6 +64,14 @@
     color: white;
     text-shadow: 0 2px 4px black;
 }
+@media screen and (max-width: 1440px) and (max-height: 701px) {
+    .show-case {
+        position: static;
+        width: 80%;
+        margin: 250px auto 0 auto;
+
+    }  
+}
 @media screen and (max-width: 1024px) and (min-height: 1000px) and (max-height: 1366px)  {
     
 }
