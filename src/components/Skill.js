@@ -14,19 +14,20 @@ export default class Skill extends Component {
                             <li>CSS3</li>
                             <li>CSS preprocessor</li>
                             <li>Javascript</li>
-                            <li>ReactJS</li>
+                            <li>JQuery</li>
+                            <li>NodeJS, ReactJS</li>
                             <li>C++</li>
                         </ul>
                     </div>
                     <div className="skill-wrapper">
                         <h1>Work with</h1>
                         <ul> 
-                            <li>Jquery</li>
                             <li>PHP</li>
                             <li>Ruby</li>
                             <li>Haskell</li>
                             <li>Prolog</li>
-                            <li>Bootstrap</li>
+                            <li>SQL</li>
+                            <li>Rest/Restful services</li>
                         </ul>
                     </div>
                 </div>
