@@ -1,41 +1,51 @@
 import React, {Component} from 'react';
 import { Image } from 'react-bootstrap';
 import './css/Portfolio.css';
+import weatherImg from "../images/weatherapp.PNG";
+import ticTacImg from "../images/tictactoe.PNG";
+import PhotographyWebImg from "../images/photoweb.PNG";
+import todoappImg from "../images/todoapp.PNG";
+import quizletImg from "../images/quizlet.PNG";
+import websiteImg from "../images/website.PNG";
+import portBg from '../images/autumncover.jpg';
 
 export default class Portfolio extends Component {
     render(){
+        const background = {
+            "background": `url(${portBg}) center center/ cover no-repeat`
+        }
         return (
-            <div id="portfolio" key="content">
+            <div style={background} id="portfolio" key="content">
                 <h1>Projects</h1>
                 <div className="show-case">
                     <div className="item a1">
                         <a href="https://trongvan214.github.io/Weather-App/" rel="noopener noreferrer" target="_blank">
-                            <Image src="/images/weatherapp.PNG"/>
+                            <Image src={weatherImg}/>
                         </a>
                     </div>
                     <div className="item a2">
                     <a href="https://trongvan214.github.io/Tic-Tac-Toe/" rel="noopener noreferrer" target="_blank"> 
-                            <Image src="/images/tictactoe.PNG"/>
+                            <Image src={ticTacImg}/>
                         </a>
                     </div>
                     <div className="item i1">
                         <a href="https://trongvan214.github.io/PhotographyWeb/" rel="noopener noreferrer" target="_blank">
-                            <Image src="/images/photoweb.PNG"/>
+                            <Image src={PhotographyWebImg}/>
                         </a>
                     </div>
                     <div className="item i2">
                         <a href="https://trongvan214.github.io/ReactJsTodoApp/" rel="noopener noreferrer" target="_blank"> 
-                            <Image src="/images/todoapp.PNG"/>
+                            <Image src={todoappImg}/>
                         </a>
                     </div>
                     <div className="item i3">
                         <a href="https://trongvan214.github.io/websiteReact/" rel="noopener noreferrer" target="_blank"> 
-                            <Image src="/images/website.PNG"/>
+                            <Image src={websiteImg}/>
                         </a>
                     </div>
                     <div className="item a5">
                         <a href="https://trongvan214.github.io/quizlet/" rel="noopener noreferrer" target="_blank"> 
-                            <Image src="/images/quizlet.PNG"/>
+                            <Image src={quizletImg}/>
                         </a>
                     </div>
                 </div>

@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import './css/Skill.css';
+import skillBg from '../images/book.jpeg';
 
 export default class Skill extends Component {
     render(){
+        const background = {
+            "background": `url(${skillBg}) center center/ cover no-repeat`
+        }
         return (
-            <section id="skill" key="content">
+            <section style={background} id="skill" key="content">
                 <h1>Skills</h1>
                 <div className="skill-info">
                     <div className="skill-wrapper">
