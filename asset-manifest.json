@@ -1,6 +1,14 @@
 {
-  "main.css": "static/css/main.00cb6163.css",
-  "main.css.map": "static/css/main.00cb6163.css.map",
-  "main.js": "static/js/main.20fc9073.js",
-  "main.js.map": "static/js/main.20fc9073.js.map"
+  "main.css": "static/css/main.234d85bd.css",
+  "main.css.map": "static/css/main.234d85bd.css.map",
+  "main.js": "static/js/main.84f09b2b.js",
+  "main.js.map": "static/js/main.84f09b2b.js.map",
+  "static/media/autumncover.jpg": "static/media/autumncover.9313a9ee.jpg",
+  "static/media/book.jpeg": "static/media/book.ebafc4f5.jpeg",
+  "static/media/photoweb.PNG": "static/media/photoweb.a6ee906a.PNG",
+  "static/media/quizlet.PNG": "static/media/quizlet.83c6a45e.PNG",
+  "static/media/tictactoe.PNG": "static/media/tictactoe.6c0565fc.PNG",
+  "static/media/todoapp.PNG": "static/media/todoapp.0b61b691.PNG",
+  "static/media/weatherapp.PNG": "static/media/weatherapp.8c1f1e13.PNG",
+  "static/media/website.PNG": "static/media/website.cd316211.PNG"
 }
