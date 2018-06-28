@@ -8,6 +8,7 @@ import todoappImg from "../images/todoapp.PNG";
 import quizletImg from "../images/quizlet.PNG";
 import websiteImg from "../images/website.PNG";
 import portBg from '../images/autumncover.jpg';
+import baguide from '../images/baguide.PNG';
 
 export default class Portfolio extends Component {
     render(){
@@ -24,8 +25,8 @@ export default class Portfolio extends Component {
                         </a>
                     </div>
                     <div className="item a2">
-                    <a href="https://trongvan214.github.io/Tic-Tac-Toe/" rel="noopener noreferrer" target="_blank"> 
-                            <Image src={ticTacImg}/>
+                    <a href="https://trongvan214.github.io/baguide/" rel="noopener noreferrer" target="_blank"> 
+                            <Image src={baguide}/>
                         </a>
                     </div>
                     <div className="item i1">
