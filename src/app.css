@@ -13,3 +13,7 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+
+.indent {
+    text-indent: 10%;
+}

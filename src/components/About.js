@@ -7,7 +7,7 @@ export default class About extends Component {
             <section id="about" key="about">
                 <div className="about-info">
                     <h1>About Me</h1>
-                    <p>  My passion for coding started when I first took a 
+                    <p className="indent">My passion for coding started when I first took a 
                     programming class back in high school. I fell 
                     in love with it, and I've been coding ever since.
                     I make things from basics games to web apps with javascript.
