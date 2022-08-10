@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './css/Skill.css';
-import skillBg from '../images/book.jpeg';
+import skillBg from '../images/skill.jpeg';
 
 export default class Skill extends Component {
     render(){
@@ -27,10 +27,9 @@ export default class Skill extends Component {
                         <h1>Work with</h1>
                         <ul> 
                             <li>PHP</li>
-                            <li>Ruby</li>
-                            <li>Haskell</li>
-                            <li>Prolog</li>
-                            <li>SQL</li>
+                            <li>MySQL</li>
+                            <li>Swift</li>
+                            <li>Python</li>
                             <li>Rest/Restful services</li>
                         </ul>
                     </div>

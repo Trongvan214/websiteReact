@@ -7,7 +7,7 @@
     left: 0;
     height: 100vh;
     width: 100vw;
-    background:  url(https://static.pexels.com/photos/396158/pexels-photo-396158.jpeg) 0 0/ cover no-repeat;
+    background:  url(../../images/home.jpeg) 0 0/ cover no-repeat;
     opacity: 0.8;
     z-index: 49;
 }

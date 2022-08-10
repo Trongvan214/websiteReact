@@ -7,6 +7,7 @@
     right: 0;
     left: 0;
     bottom: 0;
+    background:  url(../../images/autumncover.jpeg) 0 0/ cover no-repeat;
     width: 100vw;
     height: 100vh;
 }
@@ -14,14 +15,14 @@
 #portfolio h1 {
     text-align: center;
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 50px;
     text-shadow: 0 2px 4px black;
     margin-bottom: 20px;
 }
 
 .show-case {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);    
     width: auto;
     height: auto;

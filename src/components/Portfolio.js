@@ -7,16 +7,12 @@ import PhotographyWebImg from "../images/photoweb.PNG";
 import todoappImg from "../images/todoapp.PNG";
 import quizletImg from "../images/quizlet.PNG";
 import websiteImg from "../images/website.PNG";
-import portBg from '../images/autumncover.jpg';
 import baguide from '../images/baguide.PNG';
 
 export default class Portfolio extends Component {
     render(){
-        const background = {
-            "background": `url(${portBg}) center center/ cover no-repeat`
-        }
         return (
-            <div style={background} id="portfolio" key="content">
+            <div id="portfolio" key="content">
                 <h1>Projects</h1>
                 <div className="show-case">
                     <div className="item a1">
